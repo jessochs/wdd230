@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#myself {
+    background-color: deeppink;
+}
+header {
+    display: grid;
+    font-family: Roboto, sans-serif;
+    background-color: deeppink;
+    color: white;
+
+}
+
+.me {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+    grid-column: 6/12;
+    grid-row: 2/6;
+
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 12fr;
+}
+    
+footer {
+    background-color: deeppink;
+    color: white;
+    display: flex;
+}
