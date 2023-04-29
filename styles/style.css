@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-#myself {
-    background-color: deeppink;
-}
+
+
 header {
     height: 300px;
     display: flex;
@@ -13,24 +12,23 @@ header {
     padding: 20px;
 
 }
-#homepage {
+body {
     width: 900px;
     margin: 0 auto;
 
 }
-.me {
+header img {
     height: 300px;
     
 }
 
-h2 {
+h1, h2 {
     font-size: 2em;
     color: black;
     
-
 }
 
-.home-grid {
+main {
     padding: 30px;
 }
 
