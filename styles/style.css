@@ -3,41 +3,50 @@
     background-color: deeppink;
 }
 header {
-    display: grid;
+    height: 300px;
+    display: flex;
     font-family: Roboto, sans-serif;
     background-color: deeppink;
     color: white;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
 
 }
+#homepage {
+    width: 900px;
+    margin: 0 auto;
 
+}
 .me {
-    width: 100%;
+    height: 300px;
+    
 }
 
 h2 {
     font-size: 2em;
     color: black;
-    grid-column: 6/8;
-    grid-row: 1/6;
-    align-items: left;
+    
 
 }
 
+.home-grid {
+    padding: 30px;
+}
+
 p {
-    grid-column: 4/12;
-    grid-row: 4/6 6/6;
+    
     font-size: 1em;
     color: black;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 6fr;
-}
+
     
 footer {
     background-color: deeppink;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
