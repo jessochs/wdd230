@@ -15,6 +15,11 @@ main {
     padding: 10px;
 }
 
+h1 {
+    color: white;
+    font-size: 1em;
+}
+
 h2 {
     height: 50px;
     font-family: Roboto, sans-serif;
