@@ -4,6 +4,17 @@ body {
     width: 900px;
     margin: 0 auto;
 }
+header {
+    height: 100px;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    background-color: #7b86b8;
+    color: white;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+
+}
 h1 {
     font-size: 2em;
     background-color: #7b86b8;
