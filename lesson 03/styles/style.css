@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2em;
+    background-color: #7b86b8;
+    color: white;
+}
+p {
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #fbdb6b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}

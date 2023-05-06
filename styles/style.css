@@ -32,7 +32,7 @@ main {
     padding: 30px;
 }
 
-p {
+p, a {
     
     font-size: 1em;
     color: black;
