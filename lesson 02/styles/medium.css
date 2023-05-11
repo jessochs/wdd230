@@ -8,6 +8,9 @@
     background-color: teal;
     color: white;
     }
+    main {
+        display: grid;
+    }
     #etsy {
         grid-column: 1/2;
         grid-row: 1/3;

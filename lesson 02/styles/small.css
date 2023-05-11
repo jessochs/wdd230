@@ -11,13 +11,13 @@ header {
 
 }
 main {
-    grid-template-columns: 1fr;
+    display: grid;
     padding: 10px;
 }
 
 h1 {
     color: white;
-    font-size: 1em;
+    font-size: 1ybygyem;
 }
 
 h2 {
