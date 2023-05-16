@@ -1,11 +1,13 @@
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 1000px) {
     .navigation {
-        display: flex;
+        flex-direction: row;
+    
+       
     }
-    .navigation li:first-child {
+    #hamButton {
         display: none;
-
     }
+  
     .navigation li {
         flex: 1 1 100%;
         display: block;

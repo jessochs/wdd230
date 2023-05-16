@@ -15,16 +15,55 @@ nav {
 
     display: flex;
 }
-.navigation li:first-child {
-    display: block;
-}
+
 .navigation a {
     color: white;
+}
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: navy;
+}
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #fbdb6b;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	padding: 1.15rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the responsive class is added and accounted for here */
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+.navigation.responsive li a {
+	display: block;
 }
 main {
     display: grid;
     
 }
+
 .hero {
     grid-column: 2/3;
     grid-row: 1;
