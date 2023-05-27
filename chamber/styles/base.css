@@ -8,11 +8,16 @@ header {
     display: flex;
     gap: 10px;
     padding: 15px;
-    width: 100%;
+    
     
 }
 h1 {
     font-size: 1.5em;
+    font-family: Noto Serif;
+}
+h2 {
+    font-size: 2em;
+    font-family: Noto Serif;
 }
 header > img {
     height: 100px;
@@ -117,6 +122,7 @@ main figure.practice-img img {
 
 footer {
     background-color: #fbdb6b;
+    font-family: Noto Serif;
     color: black;
     display: flex;
     flex-direction: column;
