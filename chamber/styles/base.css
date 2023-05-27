@@ -8,6 +8,7 @@ header {
     display: flex;
     gap: 10px;
     padding: 15px;
+    width: 100%;
     
 }
 h1 {
@@ -76,6 +77,14 @@ time {
 }
 .navigation.responsive li a {
 	display: block;
+}
+
+main figure.practice-img {
+    width: 66%;
+    
+}
+main figure.practice-img img {
+    width: 100%;
 }
 
 .homepage {

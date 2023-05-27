@@ -43,9 +43,19 @@
         
     </nav>
         <main class="homepage">
+            <h3>
+                <span id="message"></span>
+            </h3>
             <section class="hero">
                 <h2>Welcome to Glendale</h2>
-                <img class="hero-img" src="images/desert-herosm.jpg" alt="hero image">
+                <figure class="practice-img">
+                    <img src="images/wdd230-org.jpg" alt="practice photo" sizes="66px"
+                        srcset="images/wdd230-orgsmall200.jpg 200w
+                                images/wdd230-org500.jpg 500w 
+                                images/wdd230-800.jpg 800w">
+
+                </figure>
+                <!--<img class="hero-img" src="images/desert-herosm.jpg" alt="hero image"> -->
             </section>
             
             <section class="news">
@@ -86,6 +96,12 @@
             
             <section class="weather">
                 <h2>Weather</h2>
+                <h3>
+                    Temperature:<span id="temp"></span>
+                </h3>
+                <h3>
+                    Windchill:<span id="windChill"></span>
+                </h3>
             </section>
             
 
