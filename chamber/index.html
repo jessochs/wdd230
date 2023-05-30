@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <img src="images/small-logo.png" alt="logo image">
+        <img src="images/small-logo.webp" alt="logo image">
         <h1>Desert Chamber of Commerce</h1>
        <div>
         <a id="hamButton" href="#" onclick="toggleMenu()">&#9776; Menu</a>
@@ -26,7 +26,10 @@
        
         
     </header>
-    <time></time>
+    <p id="time"></p>
+    <h3>
+        <span id="message"></span>
+    </h3>
     <nav>
         <!-- <img src="images/small-logo.png" alt="logo image"> -->
         <!-- <img src="images/instagram.png" alt="Instagram logo">
@@ -43,18 +46,17 @@
         
     </nav>
         <main class="homepage">
-            <h3>
-                <span id="message"></span>
-            </h3>
+        
             <section class="hero">
                 <h2>Welcome to Glendale</h2>
-                <figure class="practice-img">
-                    <img src="images/wdd230-org.jpg" alt="practice photo" sizes="66px"
-                        srcset="images/wdd230-orgsmall200.jpg 200w
-                                images/wdd230-org500.jpg 500w 
-                                images/wdd230-800.jpg 800w">
+                <picture class="practice-img">
+                    <source media="(max-width:200px)" srcset="images/wdd230-orgsmall200.jpg">
+                    <source media="(max-width:500px)" srcset="images/wdd230-org500.jpg">
+                    <source media="(max-width:800px)" srcset="images/wdd230-800.jpg">
 
-                </figure>
+                    <img src="images/wdd230-org.jpg" alt="practice photo">
+
+                </picture>
                 <!--<img class="hero-img" src="images/desert-herosm.jpg" alt="hero image"> -->
             </section>
             
@@ -107,10 +109,11 @@
 
         </main>
         <footer>
-            <img src="images/small-logo.png" alt="logo">
+            <img src="images/small-logo.webp" alt="logo">
             <p>&copy; <span id="year"></span> Desert Chamber | Jessica Facer | WDD 230 Project | Last Updated <span id="last-updated"></span></p>
             
         </footer>
         <script src="./scripts/scripts.js"></script>
+        <script src="./scripts/windchill.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ if (weekday >= 2 && weekday <= 3) {
 document.querySelector("#message").textContent = message;
 document.querySelector("#year").textContent = date.getFullYear();
 document.querySelector("#last-updated").textContent = document.lastModified;
-document.querySelector("time").textContent= new Intl.DateTimeFormat("en-UK", {
+document.querySelector("#time").textContent= new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(date);
 const hamButton = document.querySelector('#hamButton');

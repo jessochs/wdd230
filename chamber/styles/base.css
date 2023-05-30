@@ -33,7 +33,7 @@ nav {
 
     display: flex;
 }
-time {
+#time {
     display: block;
     text-align: center;
     background-color: #fbdb6b;
@@ -84,11 +84,26 @@ time {
 	display: block;
 }
 
-main figure.practice-img {
-    width: 66%;
+
+.homepage .hero {
+    position: relative;
+    height: 600px;
+    padding: 0px;
+}
+.hero h2 {
+    position: absolute;
+    z-index: 9999;
+    right: 0px;
+}
+main picture.practice-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin: 0;
+    position: absolute;
     
 }
-main figure.practice-img img {
+main picture.practice-img img {
     width: 100%;
 }
 
