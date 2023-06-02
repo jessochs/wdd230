@@ -52,5 +52,6 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
+    img:hover {box-shadow: 0 0 50px #333;}
     
 }

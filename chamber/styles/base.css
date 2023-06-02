@@ -144,3 +144,16 @@ footer {
     align-items: center;
     padding: 20px;
 }
+.discover {
+    display: grid;
+}
+.content {
+    float: right;
+}
+img {
+    float: left;
+}
+img #balloon {
+    grid-column: 1/2;
+    grid-row: 4;
+}
