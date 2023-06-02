@@ -1,6 +1,8 @@
 img {
-    width: 300px;
-    height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 article img[data-src] {
     filter: blur(0.2em);
@@ -10,6 +12,9 @@ article img[data-src] {
     filter: blur(0em);
     transition: filter 0.5s;
   }
-main {
-  column-count: 1;
-}
+  /* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  } */
