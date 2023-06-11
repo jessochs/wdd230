@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desert Chamber of commerce Homepage Jessica Facer wdd230 Frontend Development">
+    <title>Join Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/small-logo.webp" alt="logo image">
+        <h1>Desert Chamber of Commerce</h1>
+        <div>
+            <a id="hamButton" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+            <img class="socialicons" src="images/instagram.png" alt="Instagram logo">
+            <img class="socialicons" src="images/facebook.png" alt="Facebook logo">
+
+        </div>
+
+
+
+    </header>
+    <p id="time"></p>
+    <p>
+        <span id="message"></span>
+    </p>
+    <nav>
+        <!-- <img src="images/small-logo.png" alt="logo image"> -->
+        <!-- <img src="images/instagram.png" alt="Instagram logo">
+        <img src="images/facebook.png" alt="Facebook logo"> -->
+        <ul class="navigation">
+
+
+            <li><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Nearby Trails</a></li>
+
+        </ul>
+
+    </nav>
+    <main class="join1">
+        <div id="formmessage"></div>
+        <h1>Join Us</h1>
+        <form method="get">
+            <p class="smaller">*️⃣ Indicates a required field</p>
+
+            <label for="firstname" class="req">First Name</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
+            <label for="lastname" class="req">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
+            <!-- add business title  -->
+            <label for="email" class="req">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Please enter your email address">
+            <label for="phone" class="req">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="title" class="req">Business Name/Title</label>
+            <input type="text" id="title" name="title" required placeholder="Please enter your business/title">
+            <fieldset>
+                <legend>Select a membership level:</legend>
+
+                <div>
+                    <input type="radio" id="np" name="membership" value="np" checked>
+                    <label for="np">NP Membership</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="bronze" name="membership" value="bronze">
+                    <label for="bronze">Bronze Membership</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="silver" name="membership" value="silver">
+                    <label for="silver">Silver Membership</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="gold" name="membership" value="gold">
+                    <label for="gold">Gold Membership</label>
+                </div>
+            </fieldset>
+            <label for="comments" class="req">Business Description</label>
+            <textarea id="comments" name="comments" required></textarea>
+            <button id="submit" type="submit">Submit</button>
+            <input type="hidden" value="43aster">
+
+        </form>
+
+
+
+    </main>
+    <footer>
+        <img src="images/small-logo.webp" alt="logo">
+        <p>&copy; <span id="year"></span> Desert Chamber | Jessica Facer | WDD 230 Project | Last Updated <span id="last-updated"></span></p>
+        
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+
+
+
+</body>
+
+</html>
