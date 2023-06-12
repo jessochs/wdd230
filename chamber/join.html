@@ -49,14 +49,15 @@
     <main class="join1">
         <div id="formmessage"></div>
         <h1>Join Us</h1>
-        <form method="get">
+        <form method="get" action="./thankyou.html">
             <p class="smaller">*️⃣ Indicates a required field</p>
 
             <label for="firstname" class="req">First Name</label>
             <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
             <label for="lastname" class="req">Last Name</label>
             <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
-            <!-- add business title  -->
+            <label for="business">Business Title</label>
+            <input type="text" id="business" name="business" pattern="^[a-zA-Z\- ]{7,}$">
             <label for="email" class="req">Email Address</label>
             <input type="email" id="email" name="email" required placeholder="Please enter your email address">
             <label for="phone" class="req">Phone Number</label>
@@ -92,6 +93,7 @@
             <input type="hidden" value="43aster">
 
         </form>
+        <form 
 
 
 
