@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: rgb(163, 193, 203);
+    text-align: center;
+    gap: 20px;
+    border: 1px solid #878383;
+    font-family: Noton Serif;
+    
+}
+main {
+    
+    display: grid;
+    padding: 10 px;
+    gap: 10px;
+}
+
+
