@@ -1,0 +1,68 @@
+{
+    "businesses": [
+        {
+            "name": "Julie's Nails",
+            "phone": "623-247-9681",
+            "address": "5843 West Indian School Road Phoenix, AZ 85301",
+            "website": "n/a",
+            "membership": "NP"
+
+        },
+        {
+            "name": "Pasteleria Azteca",
+            "phone": "623-266-7251",
+            "address": "5893 West Indian School Road Unit B Phoenix, AZ 85301",
+            "website": "pasteleria-azteca.business.site",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Abbie's Cakes",
+            "phone": "602-842-1941",
+            "address": "5110 N Dysart Rd Litchfield Park, AZ 85340",
+            "website": "abbiescakesco.com",
+            "membership": "Silver"
+        },
+        {
+            "name": "Kneader's",
+            "phone": "623-223-1636",
+            "address": "20630 N 75th Ave Glendale, AZ 85308",
+            "website": "kneaders.com",
+            "membership": "Silver"
+        },
+        {
+            "name": "Harkins",
+            "phone": "623-412-0122",
+            "address": "16046 N Arrowhead Fountain Drive Peoria, AZ 85382",
+            "website": "harkins.com",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Costco",
+            "phone": "623-776-4003",
+            "address": "17550 N 79th Ave Glendale, AZ 85308",
+            "website": "costco.com",
+            "membership": "Gold"
+        },
+        {
+            "name": "Larry H Miller Toyota",
+            "phone": "623-432-1790",
+            "address": "8633 W Bell Road Peoria, AZ 85382",
+            "website": "larrymillerdodge.com",
+            "membership": "Gold"
+        },
+        {
+            "name": "Trader Joe's",
+            "phone": "623-776-7414",
+            "address": "7220 W Bell Road Glendale, AZ 85308",
+            "website": "locations.traderjoes.com",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Barro's",
+            "phone": "623-362-8080",
+            "address": "20165 N 67th Ave Glendale, AZ 85308",
+            "website": "barrospizza.com",
+            "membership": "Silver"
+        }
+    ]
+}

@@ -195,3 +195,18 @@ select {
 	font-size: 10px;
 	content: " *️⃣";
 }
+
+.direct {
+    display: grid;
+    gap: 20px 5px;
+    margin: 0 auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #7b86b8a1;
+    text-align: center;
+    gap: 20px 20px;
+    border: 1px solid #878383;
+    font-family: Noton Serif;
+}
