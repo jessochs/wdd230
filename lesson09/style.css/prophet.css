@@ -8,18 +8,26 @@ footer {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    background-color: rgb(163, 193, 203);
+    background-color: rgba(163, 193, 203, 0);
     text-align: center;
-    gap: 20px;
-    border: 1px solid #878383;
+    gap: 20px 5px;
+    /* border: 1px solid #878383; */
     font-family: Noton Serif;
     
+}
+.cards section{
+  border: 2px solid black;
+  background-color: rgba(101, 134, 129, 0.475)
 }
 main {
     
     display: grid;
     padding: 10 px;
     gap: 10px;
+}
+
+footer {
+  text-align: center;
 }
 
 
