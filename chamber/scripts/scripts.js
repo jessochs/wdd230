@@ -4,7 +4,7 @@ let message;
 
 if (weekday >= 2 && weekday <= 3) {
 	
-message = "Please join us for the Chamber Meet and Greet on Wednesday at 7:00 pm."
+message = " 🤝🏼 Please join us for the Chamber Meet and Greet on Wednesday at 7:00 pm."
 document.querySelector("#message").textContent = message;
 } 
 

@@ -121,7 +121,9 @@ main picture.practice-img img {
 }
 .join {
     display: none;
+    
 }
+
 .event {
     grid-row: 2/3;
 }
