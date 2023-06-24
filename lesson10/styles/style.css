@@ -1,0 +1,25 @@
+figure {
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(188, 188, 188);
+    align-content: center;
+    /* //margin-right: 50px; */
+}
+section figure {
+    margin: 0 auto;
+}
+
+section {
+    
+    width: 400px;
+    height: 400px;
+    background-color: rgba(109, 168, 186, 0.559);
+    border: 2px solid black;
+    align-items: center;
+    margin: 0 auto;
+}
+body {
+    display:grid;
+    text-align: center;
+}
