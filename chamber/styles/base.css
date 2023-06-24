@@ -129,7 +129,17 @@ main picture.practice-img img {
 }
 .weather {
     grid-row: 3/4;
+    align-content: center;
+    
 }
+.weather img{
+    /* background-color: white;
+    border: 1px solid black; */
+    margin: 0 auto;
+    width: 100px;
+    align-items: center;
+}
+
 .news {
     grid-row: 4/5;
 }
