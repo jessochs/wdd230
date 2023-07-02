@@ -59,3 +59,44 @@ if ("IntersectionObserver" in window) {
         loadImages(img);
     });
 }
+const visits = document.querySelector("#visits");
+let lastVisit = window.localStorage.getItem("lastVisit");
+let daysSinceLastVisit;
+
+
+if (lastVisit) {
+
+    lastVisit = new Date(lastVisit);
+    const timeDifference = new Date() - lastVisit;
+
+    daysSinceLastVisit = Math.round(timeDifference / (24 * 60 * 60 * 1000));
+  
+    console.log(daysSinceLastVisit)
+  
+  } else {
+  
+    daysSinceLastVisit = 0;
+  
+  }
+  
+visits.textContent = daysSinceLastVisit;
+window.localStorage.setItem("lastVisit", new Date().toISOString());
+
+//button
+const grid = document.querySelector("#grid");
+const list = document.querySelector("#list");
+const display = document.querySelector("article");
+
+grid.addEventListener("click", () => {
+
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+list.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+
+}

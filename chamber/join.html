@@ -32,88 +32,103 @@
         <span id="message"></span>
     </p>
     <nav>
-        <!-- <img src="images/small-logo.png" alt="logo image"> -->
-        <!-- <img src="images/instagram.png" alt="Instagram logo">
-        <img src="images/facebook.png" alt="Facebook logo"> -->
         <ul class="navigation">
-
-
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">Activities</a></li>
-            <li><a href="#">Nearby Trails</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
 
         </ul>
 
     </nav>
     <main class="join1">
-        <div id="formmessage"></div>
-        <h1>Join Us</h1>
-        <form method="get" action="./thankyou.html">
-            <p class="smaller">*️⃣ Indicates a required field</p>
+        <section>
+            <div id="formmessage"></div>
+            <h1>Join Us</h1>
+            <form method="get" action="./thankyou.html">
+                <p class="smaller">*️⃣ Indicates a required field</p>
 
-            <label for="firstname" class="req">First Name</label>
-            <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
-            <label for="lastname" class="req">Last Name</label>
-            <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
-            <label for="business">Business Title</label>
-            <input type="text" id="business" name="business" pattern="^[a-zA-Z\- ]{7,}$">
-            <label for="email" class="req">Email Address</label>
-            <input type="email" id="email" name="email" required placeholder="Please enter your email address">
-            <label for="phone" class="req">Phone Number</label>
-            <input type="tel" id="phone" name="phone">
-            <label for="title" class="req">Business Name/Title</label>
-            <input type="text" id="title" name="title" required placeholder="Please enter your business/title">
-            <fieldset>
-                <legend>Select a membership level:</legend>
+                <label for="firstname" class="req">First Name</label>
+                <input type="text" id="firstname" name="firstname" required placeholder="Please enter your first name">
+                <label for="lastname" class="req">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required placeholder="Please enter your last name">
+                <label for="business">Business Title</label>
+                <input type="text" id="business" name="business" pattern="^[a-zA-Z\- ]{7,}$">
+                <label for="email" class="req">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Please enter your email address">
+                <label for="phone" class="req">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="title" class="req">Business Name/Title</label>
+                <input type="text" id="title" name="title" required placeholder="Please enter your business/title">
+                <fieldset>
+                    <legend>Select a membership level:</legend>
 
-                <div>
-                    <input type="radio" id="np" name="membership" value="np" checked>
-                    <label for="np">NP Membership</label>
-                </div>
+                    <div>
+                        <input type="radio" id="np" name="membership" value="np" checked>
+                        <label for="np">NP Membership</label>
+                    </div>
 
-                <div>
-                    <input type="radio" id="bronze" name="membership" value="bronze">
-                    <label for="bronze">Bronze Membership</label>
-                </div>
+                    <div>
+                        <input type="radio" id="bronze" name="membership" value="bronze">
+                        <label for="bronze">Bronze Membership</label>
+                    </div>
 
-                <div>
-                    <input type="radio" id="silver" name="membership" value="silver">
-                    <label for="silver">Silver Membership</label>
-                </div>
+                    <div>
+                        <input type="radio" id="silver" name="membership" value="silver">
+                        <label for="silver">Silver Membership</label>
+                    </div>
 
-                <div>
-                    <input type="radio" id="gold" name="membership" value="gold">
-                    <label for="gold">Gold Membership</label>
-                    
-                </div>
-                <div>
-                    <label>This is the highest membership. It costs $375/mo per person. </label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <div>
-                    <label></label>
-                </div>
-                <div>
-                    <label>This is the highest membership. It costs $375/mo per person. </label>
-                </div>
-            </fieldset>
-            <label for="comments" class="req">Business Description</label>
-            <textarea id="comments" name="comments" required></textarea>
-            <button id="submit" type="submit">Submit</button>
-            <input type="hidden" value="43aster">
+                    <div>
+                        <input type="radio" id="gold" name="membership" value="gold">
+                        <label for="gold">Gold Membership</label>
 
-        </form>
-        <form 
+                    </div>
+                </fieldset>
+
+                <label for="comments" class="req">Business Description</label>
+                <label><textarea id="comments" name="comments" required></textarea></label>
+                
+                <button id="submit" type="submit">Submit</button>
+                <input type="hidden" value="43aster">
+
+            </form>
+        </section>
+        <section>
+            <h1>Membership Descriptions</h1>
+            <ul>Non Profit</ul>
+            <li>Access to online promotions</li>
+            <li>Limited free marketing</li>
+            <li>No charge</li>
+
+            <ul>Bronze</ul>
+            <li>Access to online promotions</li>
+            <li>Limited free marketing</li>
+            <li>Physical promotions at community events</li>
+            <li>Discounts from other local businesses</li>
+            <li>$25</li>
+
+            <ul>Silver</ul>
+            <li>Access to online promotions</li>
+            <li>Limited free marketing</li>
+            <li>$75</li>
+
+            <ul>Gold</ul>
+            <li>Access to online promotions</li>
+            <li>Free marketing</li>
+            <li>Promotions in weekly newsletters and emails</li>
+            <li>Access to a network of deals and promos through other businesses</li>
+            <li>$100</li>
+        </section>
 
 
 
     </main>
     <footer>
         <img src="images/small-logo.webp" alt="logo">
-        <p>&copy; <span id="year"></span> Desert Chamber | Jessica Facer | WDD 230 Project | Last Updated <span id="last-updated"></span></p>
-        
+        <p>&copy; <span id="year"></span> Desert Chamber | Jessica Facer | WDD 230 Project | Last Updated <span
+                id="last-updated"></span></p>
+
     </footer>
     <script src="./scripts/scripts.js"></script>
 

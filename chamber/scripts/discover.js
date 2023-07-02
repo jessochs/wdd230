@@ -24,3 +24,27 @@ if ("IntersectionObserver" in window) {
         loadImages(img);
     });
 }
+// const visits = document.querySelector("#visits");
+// let lastVisit = window.localStorage.getItem("lastVisit");
+// let daysSinceLastVisit;
+
+
+// if (lastVisit) {
+
+//     lastVisit = new Date(lastVisit);
+//     const timeDifference = new Date() - lastVisit;
+
+//     daysSinceLastVisit = Math.round(timeDifference / (24 * 60 * 60 * 1000));
+  
+//     console.log(daysSinceLastVisit)
+  
+//   } else {
+  
+//     daysSinceLastVisit = 0;
+  
+//   }
+  
+// visits.textContent = daysSinceLastVisit;
+// window.localStorage.setItem("lastVisit", new Date().toISOString());
+
+  
