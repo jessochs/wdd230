@@ -148,6 +148,12 @@ main picture.practice-img img {
 .spotlights {
     grid-row: 5/6;
 }
+.spotlights h3 {
+    padding: 20px 0px;
+} 
+.spotlights a {
+    color: black;
+}
 .spotlight3 {
     display: none;
 }

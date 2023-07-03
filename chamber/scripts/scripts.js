@@ -33,7 +33,49 @@ hamButton.addEventListener('click', () => {
 // localStorage.setItem("visits-ls", numVisits);
 // todayDisplay.textContent = Date.now();
 
-let imagesThatLoad = document.querySelectorAll("[data-src]");
+//spotlights
+async function getBusinessData() {
+    const response = await fetch('json/data.json');
+    const data = await response.json();
+    // console.log(data);
+    const filterData = data.businesses.filter(item=> item.membership == "Silver" || item.membership == "Gold");
+    console.log(filterData);
+
+    let spotlights = [];
+    for (let i = 0; i < 3; i++) {
+        let random = Math.floor(Math.random() * filterData.length);
+        spotlights.push(filterData.splice(random, 1))
+    }
+    console.log(spotlights);
+    displaySpotlight(spotlights);
+}
+getBusinessData();
+
+const spotlightContainer = document.querySelector(".spotlights");
+
+
+function displaySpotlight(businesses) {
+    businesses.forEach(business => {
+        spotlightContainer.innerHTML+=`
+            <section class="spotlight">
+                <h2>${business[0].name}</h2>
+                <h3>${business[0].phone}</h3>
+                <h3>${business[0].address}</h3>
+                <a href="${business[0].website}">${business[0].website}</a>
+
+            </section>
+            
+            
+        `
+    })
+        
+    
+}
+
+
+
+try {
+    let imagesThatLoad = document.querySelectorAll("[data-src]");
 let loadImages = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
     image.onload = () => {
@@ -59,6 +101,7 @@ if ("IntersectionObserver" in window) {
         loadImages(img);
     });
 }
+
 const visits = document.querySelector("#visits");
 let lastVisit = window.localStorage.getItem("lastVisit");
 let daysSinceLastVisit;
@@ -100,3 +143,9 @@ function showList() {
     display.classList.remove("grid");
 
 }
+} 
+catch {
+    
+}
+
+
