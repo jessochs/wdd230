@@ -72,10 +72,7 @@ function displaySpotlight(businesses) {
     
 }
 
-
-
-try {
-    let imagesThatLoad = document.querySelectorAll("[data-src]");
+let imagesThatLoad = document.querySelectorAll("[data-src]");
 let loadImages = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
     image.onload = () => {
@@ -102,6 +99,11 @@ if ("IntersectionObserver" in window) {
     });
 }
 
+
+
+
+try {
+    
 const visits = document.querySelector("#visits");
 let lastVisit = window.localStorage.getItem("lastVisit");
 let daysSinceLastVisit;
