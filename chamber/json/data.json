@@ -19,14 +19,14 @@
             "name": "Abbie's Cakes",
             "phone": "602-842-1941",
             "address": "5110 N Dysart Rd Litchfield Park, AZ 85340",
-            "website": "abbiescakesco.com",
+            "website": "https://www.abbiecakesco.com/",
             "membership": "Silver"
         },
         {
             "name": "Kneader's",
             "phone": "623-223-1636",
             "address": "20630 N 75th Ave Glendale, AZ 85308",
-            "website": "kneaders.com",
+            "website": "https://www.kneaders.com/",
             "membership": "Silver"
         },
         {
@@ -40,14 +40,14 @@
             "name": "Costco",
             "phone": "623-776-4003",
             "address": "17550 N 79th Ave Glendale, AZ 85308",
-            "website": "costco.com",
+            "website": "https://www.costco.com/",
             "membership": "Gold"
         },
         {
             "name": "Larry H Miller Toyota",
             "phone": "623-432-1790",
             "address": "8633 W Bell Road Peoria, AZ 85382",
-            "website": "larrymillerdodge.com",
+            "website": "https://www.larrymillerdodge.com/",
             "membership": "Gold"
         },
         {
@@ -62,7 +62,7 @@
             "phone": "623-362-8080",
             "address": "20165 N 67th Ave Glendale, AZ 85308",
             "website": "barrospizza.com",
-            "membership": "Silver"
+            "membership": "https://barrospizza.com/"
         }
     ]
 }
