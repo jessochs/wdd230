@@ -153,6 +153,7 @@ main picture.practice-img img {
 } 
 .spotlights a {
     color: black;
+    font-family: Noton Serif;
 }
 .spotlight3 {
     display: none;
